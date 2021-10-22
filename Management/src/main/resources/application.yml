@@ -1,0 +1,8 @@
+stomp:
+  topic : /topic/greeting
+aws:
+  access_key_id: ---------
+  secret_access_key: -------
+  s3:
+    bucket : ----
+    region : ----

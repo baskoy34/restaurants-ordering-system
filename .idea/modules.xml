@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Management/Management.iml" filepath="$PROJECT_DIR$/Management/Management.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Stock-Service/Stock-Service.iml" filepath="$PROJECT_DIR$/Stock-Service/Stock-Service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UserService/UserService.iml" filepath="$PROJECT_DIR$/UserService/UserService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-config-server/ms-config-server.iml" filepath="$PROJECT_DIR$/ms-config-server/ms-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-discovery/ms-discovery.iml" filepath="$PROJECT_DIR$/ms-discovery/ms-discovery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-gateway/ms-gateway.iml" filepath="$PROJECT_DIR$/ms-gateway/ms-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/order-service/order-service.iml" filepath="$PROJECT_DIR$/order-service/order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ros-app.iml" filepath="$PROJECT_DIR$/.idea/ros-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-parent/service-parent.iml" filepath="$PROJECT_DIR$/service-parent/service-parent.iml" />
+    </modules>
+  </component>
+</project>

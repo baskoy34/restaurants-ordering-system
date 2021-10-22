@@ -1,0 +1,8 @@
+stomp:
+  topic : /topic/greeting
+aws:
+  access_key_id: AKIAJF23BILI3XZNSTLA
+  secret_access_key: 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
+  s3:
+    bucket : resimdepo
+    region : eu-west-3

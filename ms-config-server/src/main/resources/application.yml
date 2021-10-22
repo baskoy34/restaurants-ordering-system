@@ -1,0 +1,42 @@
+#spring:
+#  profiles:
+#    active: native
+#---
+spring:
+  profiles: native
+  cloud:
+    config:
+      server:
+        native:
+          search-locations:
+            C:/Users/Volkan Can/Desktop/ddddd/ms-config-properties/{application}/{profile},
+            C:/Users/Volkan Can/Desktop/ddddd/ms-config-properties/global/{profile}
+---
+#spring:
+#  profiles: git
+#  cloud:
+#    config:
+#      server:
+#        git:
+#          uri: https://github.com/baskoy34/ROS/
+#          search-paths:
+#            - "ms-config-properties/{application}/{profile}"
+#            - "ms-config-properties/global/{profile}"
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/baskoy34/ROS
+          username: baskoy34
+          password: ---
+          search-paths:
+            - "ms-config-properties/{application}/{profile}"
+            - "ms-config-properties/global/{profile}"
+    profiles:
+      active: native
+
+management:
+  security:
+    enabled: false

@@ -1,0 +1,10 @@
+server:
+  port: 8084
+spring:
+  application:
+    name: mg-service
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: ms-config-server
